@@ -20,7 +20,7 @@
             String[] surname = request.getParameterValues("surname");
             if (name != null && surname != null) {
         %>
-        <p> Hello, <%= name[0] %> <%= surname[0] %>, Date:   <%= (new java.util.Date()) %> </p>
+        <p> Hello, <%= name[0] %> <%= surname[0] %>. Date:   <%= (new java.util.Date()) %> </p>
         <a href="<%= request.getRequestURI() %>">Clear</a>
         <%
             }
