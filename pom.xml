@@ -28,7 +28,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-</dependencies>
   
 <build>
     <finalName>hello-jsp-app</finalName>
